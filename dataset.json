@@ -664,5 +664,487 @@
   {
     "text": "Saya merasa sakit pada bagian punggung saya setelah mengangkat beban yang terlalu berat",
     "label": "Cedera punggung"
+  },
+  {
+    "text": "Saya sering merasa sesak napas dan dada terasa tertekan",
+    "label": "Asma"
+  },
+  {
+    "text": "Saya merasa gatal-gatal pada kulit saya dan terdapat bintik-bintik merah",
+    "label": "Dermatitis"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian lutut saya setelah bermain sepak bola",
+    "label": "Cedera lutut"
+  },
+  {
+    "text": "Saya mengalami nyeri pada bagian kepala dan berkedip-kedip pada mata setelah menghabiskan waktu yang lama di depan layar komputer",
+    "label": "Mata lelah"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian perut saya setelah makan makanan yang pedas",
+    "label": "Sakit perut"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian gigi saya setelah mengkonsumsi makanan yang terlalu manis",
+    "label": "Sakit gigi"
+  },
+  {
+    "text": "Saya merasa pusing dan sering merasa lelah setiap hari",
+    "label": "Migrain"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian sendi lutut saya setelah berlari terlalu lama",
+    "label": "Cedera sendi lutut"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian bahu saya setelah melakukan aktivitas yang berat",
+    "label": "Cedera bahu"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian pinggang saya setelah duduk terlalu lama",
+    "label": "Sindrom pinggang bungkuk"
+  },
+  {
+    "text": "Saya mengalami pendarahan pada gigi saya setelah menyikat gigi",
+    "label": "Masalah gigi dan mulut"
+  },
+  {
+    "text": "Saya merasa gatal-gatal pada kulit saya setelah kontak dengan tanaman tertentu",
+    "label": "Dermatitis kontak"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian perut saya setelah mengkonsumsi makanan yang mengandung susu",
+    "label": "Alergi susu"
+  },
+  {
+    "text": "Saya merasa gatal-gatal dan ruam pada kulit saya setelah kontak dengan kucing",
+    "label": "Alergi kucing"
+  },
+  {
+    "text": "Saya mengalami sakit pada bagian leher saya setelah memakai scarf yang terlalu ketat",
+    "label": "Cedera leher"
+  },
+  {
+    "text": "Saya merasa kesulitan untuk tidur dan merasa lelah setiap hari",
+    "label": "Insomnia"
+  },
+  {
+    "text": "Saya mengalami sakit pada bagian lutut saya setelah jatuh dari sepeda",
+    "label": "Cedera lutut"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian punggung saya setelah mengangkat barang yang terlalu berat",
+    "label": "Sakit punggung"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian pergelangan tangan saya setelah mengetik terlalu lama",
+    "label": "Cedera pergelangan tangan"
+  },
+  {
+    "text": "Saya merasa gatal-gatal pada bagian telapak kaki saya dan kulit mengelupas",
+    "label": "Kulit kering"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian punggung saya setelah duduk terlalu lama",
+    "label": "Sindrom punggung bungkuk"
+  },
+  {
+    "text": "Saya merasa gatal-gatal dan mengalami ruam pada bagian kulit saya setelah berenang di kolam renang",
+    "label": "Dermatitis kontak air"
+  },
+  {
+    "text": "Saya mengalami sakit pada bagian bahu saya setelah jatuh saat bermain basket",
+    "label": "Cedera bahu"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian pergelangan kaki saya setelah berlari terlalu lama",
+    "label": "Cedera pergelangan kaki"
+  },
+  {
+    "text": "Saya mengalami sakit pada bagian telinga saya setelah terkena angin kencang",
+    "label": "Telinga berdengung"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian leher saya setelah melakukan olahraga yang berlebihan",
+    "label": "Cedera leher"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian kepala saya setelah menerima benturan",
+    "label": "Trauma kepala"
+  },
+  {
+    "text": "Saya mengalami sakit pada bagian dada saya setelah melakukan aktivitas fisik yang berat",
+    "label": "Nyeri dada"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian perut saya setelah makan makanan yang terlalu cepat",
+    "label": "Sakit perut"
+  },
+  {
+    "text": "Saya merasa gatal-gatal pada kulit saya setelah terkena sengatan serangga",
+    "label": "Gigitan serangga"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian bawah perut saya dan mengalami demam tinggi",
+    "label": "Infeksi saluran kemih"
+  },
+  {
+    "text": "Saya mengalami sakit kepala yang sangat parah dan tidak bisa tidur",
+    "label": "Migrain"
+  },
+  {
+    "text": "Saya merasa mual dan muntah setelah makan makanan pedas",
+    "label": "Mual dan muntah"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian punggung saya setelah duduk terlalu lama di depan komputer",
+    "label": "Sakit punggung"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian mata saya dan mengalami penglihatan kabur",
+    "label": "Mata merah"
+  },
+  {
+    "text": "Saya merasa gatal-gatal pada bagian tenggorokan saya setelah memakan makanan laut",
+    "label": "Alergi makanan laut"
+  },
+  {
+    "text": "Saya mengalami sakit perut yang parah dan diare setelah makan makanan yang tidak bersih",
+    "label": "Keracunan makanan"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian tenggorokan saya setelah menelan makanan yang terlalu besar",
+    "label": "Sakit tenggorokan"
+  },
+  {
+    "text": "Saya merasa gatal-gatal dan kulit kering pada bagian tangan saya setelah mencuci piring",
+    "label": "Dermatitis kontak"
+  },
+  {
+    "text": "Saya merasa gatal-gatal dan ruam pada bagian kulit saya setelah kontak dengan tanaman tertentu",
+    "label": "Dermatitis kontak tanaman"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian pergelangan kaki saya setelah terjatuh dari tangga",
+    "label": "Cedera pergelangan kaki"
+  },
+  {
+    "text": "Saya merasa sesak napas dan mengalami batuk-batuk setelah terpapar asap rokok",
+    "label": "Asap rokok"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian lutut saya setelah berlari terlalu lama di atas treadmill",
+    "label": "Cedera lutut"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian perut saya dan mual setelah mengkonsumsi obat tertentu",
+    "label": "Efek samping obat"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian punggung saya setelah mengangkat barang yang terlalu berat",
+    "label": "Sakit punggung"
+  },
+  {
+    "text": "Saya merasa gatal-gatal pada kulit saya setelah terpapar sinar matahari yang terlalu lama",
+    "label": "Sinar matahari"
+  },
+  {
+    "text": "Saya merasa perut kembung dan sering buang gas",
+    "label": "Masalah pencernaan"
+  },
+  {
+    "text": "Sering mengalami diare dan sakit perut",
+    "label": "Masalah pencernaan"
+  },
+  {
+    "text": "Saya sering merasa mual dan muntah setelah makan",
+    "label": "Masalah pencernaan"
+  },
+  {
+    "text": "Sulit tidur dan sering terbangun di malam hari",
+    "label": "Insomnia"
+  },
+  {
+    "text": "Saya merasa sangat lelah dan lesu sepanjang hari",
+    "label": "Kelelahan"
+  },
+  {
+    "text": "Sering merasa kesemutan di tangan dan kaki",
+    "label": "Kesemutan"
+  },
+  {
+    "text": "Saya sering merasa pusing dan lemas",
+    "label": "Lemas"
+  },
+  {
+    "text": "Sulit bernafas dan sering merasa sesak napas",
+    "label": "Asma"
+  },
+  {
+    "text": "Saya merasa sakit tenggorokan dan sering batuk",
+    "label": "Batuk dan pilek"
+  },
+  {
+    "text": "Sulit buang air kecil dan sering merasa sakit saat kencing",
+    "label": "Infeksi saluran kemih"
+  },
+  {
+    "text": "Saya merasa gatal di sekitar kemaluan",
+    "label": "Infeksi saluran kemih"
+  },
+  {
+    "text": "Sering merasa pusing dan mual-mual",
+    "label": "Vertigo"
+  },
+  {
+    "text": "Saya merasa sakit di bagian tulang belakang",
+    "label": "Sakit punggung"
+  },
+  {
+    "text": "Sering merasa kesemutan dan terasa mati rasa di tangan",
+    "label": "Tingling"
+  },
+  {
+    "text": "Saya merasa sakit pada bagian persendian",
+    "label": "Sakit sendi"
+  },
+  {
+    "text": "Sering merasa cemas dan tidak tenang",
+    "label": "Gangguan kecemasan"
+  },
+  {
+    "text": "Saya merasa sangat sedih dan tidak bersemangat",
+    "label": "Depresi"
+  },
+  {
+    "text": "Sulit berkonsentrasi dan mudah lupa",
+    "label": "Gangguan kognitif"
+  },
+  {
+    "text": "Saya sering mengalami sakit kepala migrain",
+    "label": "Migrain"
+  },
+  {
+    "text": "Saya merasa gatal-gatal dan terdapat ruam pada kulit",
+    "label": "Gatal-gatal"
+  },
+  { "text": "Saya merasa perut mual dan kembung", "label": "Sakit perut" },
+  { "text": "Sering merasa pusing dan mual-mual", "label": "Mual" },
+  { "text": "Saya merasa gatal-gatal di seluruh tubuh", "label": "Alergi" },
+  { "text": "Sulit bernafas dan sesak napas", "label": "Sesak napas" },
+  { "text": "Saya merasa lelah dan lesu setiap hari", "label": "Kelelahan" },
+  {
+    "text": "Sakit kepala yang membuat saya sulit berkonsentrasi",
+    "label": "Sakit kepala"
+  },
+  {
+    "text": "Butuh obat untuk meredakan batuk yang sudah berlangsung lama",
+    "label": "Batuk"
+  },
+  {
+    "text": "Saya sering merasa panas dan dingin secara bergantian",
+    "label": "Demam"
+  },
+  { "text": "Mata saya sering terasa perih dan gatal", "label": "Alergi mata" },
+  {
+    "text": "Sering merasa sakit pada bagian tulang dan persendian",
+    "label": "Sakit persendian"
+  },
+  {
+    "text": "Sulit untuk tidur nyenyak karena sering terbangun di malam hari",
+    "label": "Insomnia"
+  },
+  {
+    "text": "Butuh obat untuk meredakan nyeri pada bagian gigi yang sakit",
+    "label": "Sakit gigi"
+  },
+  { "text": "Saya sering mengalami diare dan sakit perut", "label": "Diare" },
+  {
+    "text": "Sering merasa keringat dingin dan badan terasa lemas",
+    "label": "Demam"
+  },
+  { "text": "Saya merasa mual dan muntah setelah makan", "label": "Mual" },
+  { "text": "Sulit bernapas dan terasa sesak di dada", "label": "Sesak napas" },
+  {
+    "text": "Sering mengalami gangguan pada lambung dan asam lambung",
+    "label": "Asam lambung"
+  },
+  {
+    "text": "Saya merasa cemas dan gelisah secara berlebihan",
+    "label": "Gangguan kecemasan"
+  },
+  {
+    "text": "Butuh terapi untuk mengatasi gangguan kecemasan saya",
+    "label": "Gangguan kecemasan"
+  },
+  {
+    "text": "Sulit untuk mengingat dan berkonsentrasi",
+    "label": "Gangguan kognitif"
+  },
+  {
+    "text": "Saya sering merasa sakit kepala di bagian belakang kepala",
+    "label": "Sakit kepala"
+  },
+  {
+    "text": "Mata saya sering terasa tegang dan lelah setelah bekerja dengan komputer dalam waktu yang lama",
+    "label": "Asthenopia"
+  },
+  {
+    "text": "Sulit buang air kecil dan merasa sakit pada bagian kandung kemih",
+    "label": "Infeksi kandung kemih"
+  },
+  {
+    "text": "Butuh obat untuk mengatasi rasa sakit pada bagian punggung yang terus menerus",
+    "label": "Nyeri punggung"
+  },
+  {
+    "text": "Saya sering merasa sakit di bagian leher dan bahu",
+    "label": "Sakit leher dan bahu"
+  },
+  { "text": "Kulit saya merah dan gatal-gatal", "label": "Alergi kulit" },
+  { "text": "Sering bersin-bersin dan hidung meler", "label": "Rhinitis" },
+  { "text": "Saya kesulitan tidur karena insomnia", "label": "Insomnia" },
+  { "text": "Kepala saya sering pusing dan mual", "label": "Migrain" },
+  { "text": "Saya merasa jantung berdebar-debar", "label": "Palpitasi" },
+  { "text": "Saya sering merasa lelah dan lesu", "label": "Kelelahan" },
+  { "text": "Saya merasa gatal-gatal di seluruh tubuh", "label": "Alergi" },
+  {
+    "text": "Sulit berkonsentrasi dan sering lupa",
+    "label": "Gangguan kognitif"
+  },
+  { "text": "Tubuh saya terasa pegal-pegal dan sakit", "label": "Nyeri otot" },
+  { "text": "Saya sering merasa cemas dan khawatir", "label": "Kecemasan" },
+  {
+    "text": "Saya merasa mual dan perut terasa tidak enak",
+    "label": "Gangguan pencernaan"
+  },
+  {
+    "text": "Saya mengalami kram perut yang menyakitkan",
+    "label": "Kram perut"
+  },
+  {
+    "text": "Sering merasa lapar dan haus terus-menerus",
+    "label": "Gangguan makan"
+  },
+  {
+    "text": "Saya sering merasa sakit kepala dan pusing",
+    "label": "Sakit kepala"
+  },
+  {
+    "text": "Saya butuh kontrol rutin untuk tekanan darah tinggi",
+    "label": "Hipertensi"
+  },
+  { "text": "Saya merasa sulit bernafas dan sesak napas", "label": "Asma" },
+  {
+    "text": "Saya sering merasa gatal dan nyeri di daerah kewanitaan",
+    "label": "Infeksi kewanitaan"
+  },
+  {
+    "text": "Saya merasa gatal-gatal di telinga dan susah mendengar",
+    "label": "Infeksi telinga"
+  },
+  {
+    "text": "Saya sering merasa kesemutan di tangan dan kaki",
+    "label": "Kesemutan"
+  },
+  {
+    "text": "Saya merasa lelah dan lesu meski sudah beristirahat cukup",
+    "label": "Kelelahan"
+  },
+  {
+    "text": "Saya sering merasa lapar dan mudah marah",
+    "label": "Hipoglikemia"
+  },
+  {
+    "text": "Saya merasa sakit perut dan sering kentut",
+    "label": "Masalah pencernaan"
+  },
+  {
+    "text": "Saya mengalami nyeri punggung yang cukup parah",
+    "label": "Nyeri punggung"
+  },
+  {
+    "text": "Saya merasa sulit buang air besar dan sering sembelit",
+    "label": "Sembelit"
+  },
+  {
+    "text": "Saya sering merasa lapar dan mudah lelah",
+    "label": "Gangguan gizi"
+  },
+  {
+    "text": "Saya sering berkeringat dan badan terasa lelah",
+    "label": "Gangguan hormon"
+  },
+  {
+    "text": "Saya sering merasa sesak napas dan sulit bernafas",
+    "label": "Asma"
+  },
+  {
+    "text": "Sulit tidur dan sering merasa gelisah, mungkin gangguan kecemasan",
+    "label": "Gangguan kecemasan"
+  },
+  { "text": "Saya merasa lelah dan lesu setiap hari", "label": "Kelelahan" },
+  {
+    "text": "Perut saya terasa sakit dan kembung setelah makan",
+    "label": "Masalah pencernaan"
+  },
+  { "text": "Saya sering merasa pusing dan mual", "label": "Migrain" },
+  {
+    "text": "Sering terjadi nyeri pada sendi dan otot saya",
+    "label": "Nyeri sendi dan otot"
+  },
+  {
+    "text": "Saya merasa kesulitan untuk tidur dan sering terbangun di malam hari",
+    "label": "Insomnia"
+  },
+  {
+    "text": "Saya merasa tidak enak badan dan sering menggigil",
+    "label": "Infeksi"
+  },
+  {
+    "text": "Tubuh saya sering terasa panas dan berkeringat",
+    "label": "Hipertermia"
+  },
+  {
+    "text": "Saya sering merasa perut mual dan kembung setelah makanan pedas",
+    "label": "Masalah pencernaan"
+  },
+  {
+    "text": "Kulit saya sering terasa kering dan gatal",
+    "label": "Kulit kering dan gatal"
+  },
+  {
+    "text": "Saya sering merasa sakit kepala di bagian belakang kepala",
+    "label": "Sakit kepala"
+  },
+  {
+    "text": "Saya merasa lapar terus-menerus dan sering buang air kecil",
+    "label": "Diabetes"
+  },
+  {
+    "text": "Saya sering merasa sulit untuk berkonsentrasi",
+    "label": "Gangguan konsentrasi"
+  },
+  {
+    "text": "Saya sering merasa lelah dan sakit tubuh setelah melakukan aktivitas fisik",
+    "label": "Kelelahan fisik"
+  },
+  {
+    "text": "Saya sering merasa sakit di daerah tenggorokan",
+    "label": "Radang tenggorokan"
+  },
+  { "text": "Saya sering merasa sakit di daerah gigi", "label": "Sakit gigi" },
+  {
+    "text": "Saya sering merasa sakit di daerah perut bagian bawah",
+    "label": "Sakit perut"
+  },
+  {
+    "text": "Saya merasa gelisah dan sulit tidur setelah mengonsumsi kopi",
+    "label": "Kafein"
+  },
+  {
+    "text": "Saya sering mengalami demam dan merasa sangat lelah",
+    "label": "Demam"
   }
 ]
