@@ -53,48 +53,23 @@ const getProducts = async (searchTerm, page, perPage) => {
   }
 };
 
-const getProductsByKeyword = async (keyword, page, perPage) => {
-  
-  let sorting;
-
-  if (keyword.includes('murah')) {
-    sorting = 'price_asc';
-    keyword = keyword.filter((item) => item !== 'murah');
-  } else if (keyword.includes('mahal')) {
-    sorting = 'price_desc';
-    keyword = keyword.filter((item) => item !== 'mahal');
-  }
-  console.log(sorting);
-  let keywords = keyword.join(' ');
-
-  keywords = keywords.replace(/ /g, ' dan ');
-  console.log(keywords);
-
-  let products = await getProducts(keywords, 1, 20);
-
-  products = products.result;
-  let newProducts = [];
-  products.forEach((product) => {
-    newProducts.push(processProductData(product));
+const getProductsByKeyword = async (keywords, page = 1, perPage = 20) => {
+  const sorting = keywords.includes('murah') ? 'price_asc' : keywords.includes('mahal') ? 'price_desc' : '';
+  keywords = keywords.filter((word) => !['murah', 'mahal'].includes(word)).join(' dan ');
+  console.log(sorting, keywords);
+  const products = await getProducts(keywords, page, perPage, sorting);
+  const processedProducts = products.result.map(processProductData);
+  processedProducts.forEach((product) => {
+    product.hargaNum = parseFloat(product.harga.replace(/[^0-9\.]/g, ''));
   });
-
   if (sorting === 'price_asc') {
-    newProducts.sort((a, b) => {
-      let priceA = a.harga.replace(/[^0-9]/g, '');
-      let priceB = b.harga.replace(/[^0-9]/g, '');
-      return priceA - priceB;
-    });
+    processedProducts.sort((a, b) => a.hargaNum - b.hargaNum);
   } else if (sorting === 'price_desc') {
-    newProducts.sort((a, b) => {
-      let priceA = a.harga.replace(/[^0-9]/g, '');
-      let priceB = b.harga.replace(/[^0-9]/g, '');
-      return priceB - priceA;
-    });
+    processedProducts.sort((a, b) => b.hargaNum - a.hargaNum);
   }
-  products = newProducts;
-  // console.log(products);
-    return products;
+  return processedProducts;
 };
+
 
 const processProductData = (product) => {
   const { name, image_url, slug, min_price } = product;

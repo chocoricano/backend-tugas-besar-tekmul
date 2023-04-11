@@ -1,8 +1,4 @@
-import {
-  helloWorld,
-  getKeywords,
-  getProductsByKeyword,
-} from './service.js';
+import { helloWorld, getKeywords, getProductsByKeyword } from './service.js';
 
 const routes = async (app, options) => {
   app.get('/', async (request, reply) => {
@@ -12,13 +8,18 @@ const routes = async (app, options) => {
 
   app.post('/keywords', async (request, reply) => {
     try {
-      const text = request.body.text;
+      const { text } = request.body;
       console.log(text);
-      const result = await getKeywords(text);
-      const result2 = await getProductsByKeyword(result, 1, 20);
-      reply.send(result2);
+      const keywords = await getKeywords(text);
+      const products = await getProductsByKeyword(keywords, 1, 20);
+      if (products.length > 0) {
+        reply.send(products);
+      } else {
+        reply.code(404).send({ message: 'No products found' });
+      }
     } catch (error) {
-      reply.send("No products found");
+      console.error(error);
+      reply.code(500).send({ message: 'Internal server error' });
     }
   });
 };
