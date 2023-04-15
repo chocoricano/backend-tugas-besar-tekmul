@@ -30,7 +30,9 @@ const routes = async (app, options) => {
       const keywords = await getKeywords(text);
       const products = await getProductsByKeywordAlodoc(keywords, 1, 20);
       if (products.length > 0) {
-        reply.send(products);
+        reply.send({
+          result: products,
+        });
       } else {
         reply.code(404).send({ message: 'No products found' });
       }
