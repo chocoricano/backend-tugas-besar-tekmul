@@ -1,12 +1,32 @@
 import fs from "fs";
 import axios from "axios";
 import parameter from "./keywords.js";
+import mqtt from "mqtt"
 
 const helloWorld = async () => {
   return "Hello, World!";
 };
 
-// Halodoc Service
+// Array containing your keywords for price and rating
+const keywordPriceRating = [
+  'murah',
+  'mahal',
+  'produk',
+  'rating',
+  'bagus',
+  'tinggi',
+  'pilih',
+  'barang',
+  'penilaian',
+  'terbaik',
+  'favorit',
+  'kualitas',
+  'pengguna',
+  'positif',
+  'populer',
+  'bintang lima',
+  'paling baik',
+];
 
 const getKeywords = async (text) => {
   const words = text.replace(/,/g, "").split(/\s+/);
@@ -14,14 +34,12 @@ const getKeywords = async (text) => {
 
   let keywords = [];
   for (let i = 0; i < words.length; i++) {
-    // membandingkan setiap kata dengan kata kunci
     for (let j = 0; j < parameter.length; j++) {
       if (words[i].toLowerCase() === parameter[j].toLowerCase()) {
         keywords.push(parameter[j]);
       }
     }
 
-    // untuk kata-kata yang terdiri dari lebih dari satu kata
     if (i < words.length - 1) {
       const twoWords = `${words[i]} ${words[i + 1]}`;
       for (let j = 0; j < parameter.length; j++) {
@@ -31,6 +49,14 @@ const getKeywords = async (text) => {
       }
     }
   }
+
+  // If no disease keyword found, get AI keywords
+  const diseaseKeywords = keywords.filter(word => !keywordPriceRating.includes(word));
+  if (diseaseKeywords.length === 0) {
+    const aiKeywords = await getKeywordsUsingAI(text);
+    keywords.push(...aiKeywords.split(/\s+/));
+  }
+
   //remove duplicate
   keywords = [...new Set(keywords)];
   console.log(keywords);
@@ -205,6 +231,34 @@ const sortingAlodoc = (
   });
 
   return sortedProducts;
+};
+
+const getKeywordsUsingAI = (kalimat) => {
+  return new Promise((resolve, reject) => {
+    const url_broker = "broker.hivemq.com";
+    const port_broker = 1883;
+    const client = mqtt.connect(`mqtt://${url_broker}:${port_broker}`);
+
+    let sentence = kalimat.toString();
+
+    client.on("connect", () => {
+      client.subscribe("healthseeker2");
+      client.publish("healthseeker", sentence);
+    });
+
+    client.on("message", (topic, message) => {
+      if (topic === "healthseeker2") {
+        client.end(); // end connection after receiving message
+        resolve(message.toString()); // resolve promise with message
+      }
+    });
+
+    // handle errors
+    client.on("error", (err) => {
+      client.end();
+      reject(err);
+    });
+  });
 };
 
 const getDetailProductAlodoc = async (linkProduct) => {};
